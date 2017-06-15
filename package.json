@@ -1,7 +1,7 @@
 {
   "name": "basic-express-server",
   "description": "basic-express-server",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/thegreatsunra/basic-express-server",
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "scripts": {
     "lint": "eslint --ext .js ./",
+    "lint:fix": "eslint --ext .js --fix ./",
     "start": "node ./index.js"
   },
   "main": "index.js"
