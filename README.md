@@ -9,8 +9,8 @@
 2) clone this repo
 
 ```bash
-git clone https://github.com/thegreatsunra/opc.git
-cd opc
+git clone https://github.com/thegreatsunra/basic-express-server.git
+cd basic-express-server
 ```
 
 3) install dependencies
