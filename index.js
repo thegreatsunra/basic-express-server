@@ -16,6 +16,7 @@ async function db() {
 }
 
 app.use(express.static('public'))
+app.use(morgan('dev'))
 
 app.listen(port)
 console.log('Magic happens on port ' + port)
