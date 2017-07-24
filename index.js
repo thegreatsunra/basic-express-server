@@ -5,6 +5,7 @@ const client = new Client({
 })
 const morgan = require('morgan')
 const app = express()
+const port = process.env.PORT || 8080
 
 async function db() {
   await client.connect()
@@ -16,8 +17,5 @@ async function db() {
 
 app.use(express.static('public'))
 
-app.listen(3000, () => {
-  console.log('Express listening on port 3000')
-})
-
-db()
+app.listen(port)
+console.log('Magic happens on port ' + port)
