@@ -3,6 +3,7 @@ const { Client } = require('pg')
 const client = new Client({
   database: 'testdb'
 })
+const morgan = require('morgan')
 const app = express()
 
 async function db() {
