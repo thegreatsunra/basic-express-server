@@ -1,3 +1,5 @@
+// http://eslint.org/docs/user-guide/configuring
+
 module.exports = {
   root: true,
   parser: 'babel-eslint',
@@ -7,7 +9,11 @@ module.exports = {
   env: {
     node: true,
   },
+  // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
   extends: 'standard',
-  plugins: [],
-  'rules': {}
+  plugins: [
+  ],
+  // add your custom rules here
+  'rules': {
+  }
 }
