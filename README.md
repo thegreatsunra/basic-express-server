@@ -24,7 +24,7 @@ yarn
 5) run the app
 
 ```bash
-npm start
+node index.js
 ```
 
 ## License
